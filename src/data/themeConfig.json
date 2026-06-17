@@ -1,0 +1,76 @@
+{
+  "themes": [
+    {
+      "theme": "grief",
+      "keywords": ["sad", "sadness", "grief", "grieving", "loss", "heartbroken", "crying", "cry", "depressed", "dukh", "dukhi", "udaas", "rona", "mann udaas"],
+      "verseIds": ["1_47", "2_27", "2_14", "18_66"]
+    },
+    {
+      "theme": "fear",
+      "keywords": ["afraid", "fear", "scared", "anxious", "nervous", "panic", "dar", "darr", "bhay", "scared of failing", "scared of losing"],
+      "verseIds": ["2_3", "2_23", "4_10", "11_32", "12_15"]
+    },
+    {
+      "theme": "anger",
+      "keywords": ["angry", "anger", "furious", "mad", "irritated", "rage", "gussa", "krodh", "frustrated", "annoyed"],
+      "verseIds": ["2_56", "2_62", "2_63", "3_37", "16_21"]
+    },
+    {
+      "theme": "doubt",
+      "keywords": ["confused", "doubt", "unsure", "don't know what to do", "conflicted", "uncertain", "sandeh", "confusion", "kya karu", "stuck", "torn between"],
+      "verseIds": ["3_27", "3_35", "4_38", "18_47", "7_14"]
+    },
+    {
+      "theme": "distraction",
+      "keywords": ["distracted", "procrastinating", "procrastinate", "can't focus", "cant focus", "wasting time", "phone", "social media", "scrolling", "lazy", "laziness", "aalas", "time pass", "not studying", "checking my phone", "netflix", "reels"],
+      "verseIds": ["6_26", "6_35", "6_16", "6_17", "8_7"]
+    },
+    {
+      "theme": "attachment",
+      "keywords": ["desire", "craving", "greedy", "greed", "want too much", "obsessed", "attachment", "moh", "lalach", "kaam", "can't let go"],
+      "verseIds": ["2_47", "2_70", "3_19", "5_10", "16_21"]
+    },
+    {
+      "theme": "anxiety",
+      "keywords": ["anxiety", "anxious", "stressed", "stress", "overwhelmed", "tense", "pressure", "tension", "ghabrahat", "worried"],
+      "verseIds": ["2_38", "2_56", "9_22", "12_15", "12_13"]
+    },
+    {
+      "theme": "comparison",
+      "keywords": ["comparing", "jealous", "jealousy", "envy", "others are better", "everyone else", "insecure", "comparison", "compare myself"],
+      "verseIds": ["3_27", "3_35", "5_18", "18_47"]
+    },
+    {
+      "theme": "failure",
+      "keywords": ["failed", "failure", "disappointed", "disappointment", "not good enough", "rejected", "rejection", "lost", "losing", "i give up"],
+      "verseIds": ["2_3", "6_5", "6_6", "7_3"]
+    },
+    {
+      "theme": "impermanence",
+      "keywords": ["death", "dying", "mortality", "temporary", "everything ends", "lost someone", "passed away"],
+      "verseIds": ["2_14", "2_20", "2_23", "2_27", "11_32"]
+    },
+    {
+      "theme": "resolve",
+      "keywords": ["determined", "determination", "resolve", "commitment", "commit", "sankalp", "willpower", "give up", "giving up", "quit", "quitting"],
+      "verseIds": ["2_3", "6_5", "6_6", "12_14", "18_78"]
+    },
+    {
+      "theme": "discipline",
+      "keywords": ["discipline", "routine", "habit", "consistency", "self-control", "control myself", "moderation", "balance my life"],
+      "verseIds": ["3_7", "6_16", "6_17", "12_13", "12_14"]
+    },
+    {
+      "theme": "karma_yoga",
+      "keywords": ["effort", "hard work", "outcome", "result", "worried about the result", "just do my best", "working hard", "focus on the process"],
+      "verseIds": ["2_47", "2_48", "2_50", "3_19", "5_10", "8_7", "9_27"]
+    },
+    {
+      "theme": "perseverance",
+      "keywords": ["never give up", "keep going", "persevere", "persistence", "struggling but trying", "tired of trying", "exhausted but continuing"],
+      "verseIds": ["7_3", "6_35", "18_78"]
+    }
+  ],
+  "goalSupportThemes": ["resolve", "discipline", "karma_yoga", "perseverance"],
+  "defaultVerseIds": ["2_47", "2_48", "6_5", "9_27", "18_78"]
+}

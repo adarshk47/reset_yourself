@@ -1,0 +1,479 @@
+{
+  "isPartial": true,
+  "source": "Sanskrit text and transliteration referenced from the public-domain Bhagavad Gita verses (cross-checked against github.com/vedicscriptures/bhagavad-gita for verse boundaries/numbering only). English and Hindi translations are written independently for this app. This is a curated highlights subset (43 verses spanning all main themes across most chapters), not the full 700-verse text - see DATA_LICENSE.md.",
+  "verses": [
+    {
+      "id": "1_47",
+      "chapter": 1,
+      "verseNumber": 47,
+      "sanskrit": "सञ्जय उवाच | एवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् | विसृज्य सशरं चापं शोकसंविग्नमानसः ||१-४७||",
+      "transliteration": "sañjaya uvāca . evamuktvārjunaḥ saṅkhye rathopastha upāviśat . visṛjya saśaraṃ cāpaṃ śokasaṃvignamānasaḥ ||1-47||",
+      "translations": {
+        "en": "Sanjaya said: Having spoken thus, Arjuna sat down on the seat of his chariot in the midst of the battle, casting aside his bow and arrow, his mind overwhelmed with grief.",
+        "hi": "संजय ने कहा: ऐसा कहकर अर्जुन युद्धभूमि में रथ पर बैठ गए और शोक से व्याकुल मन से बाण सहित धनुष को त्याग दिया।"
+      }
+    },
+    {
+      "id": "2_3",
+      "chapter": 2,
+      "verseNumber": 3,
+      "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते | क्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ||२-३||",
+      "transliteration": "klaibyaṃ mā sma gamaḥ pārtha naitattvayyupapadyate . kṣudraṃ hṛdayadaurbalyaṃ tyaktvottiṣṭha parantapa ||2-3||",
+      "translations": {
+        "en": "O Partha, do not yield to this unmanly weakness; it does not become you. Cast off this petty faintheartedness and arise, O scorcher of foes.",
+        "hi": "हे पार्थ, इस नपुंसकता को प्राप्त मत हो, यह तुम्हें शोभा नहीं देता। हे परंतप, इस तुच्छ हृदय-दुर्बलता को त्यागकर उठो।"
+      }
+    },
+    {
+      "id": "2_14",
+      "chapter": 2,
+      "verseNumber": 14,
+      "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः | आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ||२-१४||",
+      "transliteration": "mātrāsparśāstu kaunteya śītoṣṇasukhaduḥkhadāḥ . āgamāpāyino.anityāstāṃstitikṣasva bhārata ||2-14||",
+      "translations": {
+        "en": "O son of Kunti, the contact of the senses with their objects - giving rise to heat and cold, pleasure and pain - is temporary; it comes and goes. Endure it with patience, O Bharata.",
+        "hi": "हे कुन्तीपुत्र, इन्द्रियों का विषयों से स्पर्श सुख-दुख, शीत-उष्ण देने वाला है, ये आने-जाने वाले और अनित्य हैं; हे भारत, इन्हें सहन करो।"
+      }
+    },
+    {
+      "id": "2_20",
+      "chapter": 2,
+      "verseNumber": 20,
+      "sanskrit": "न जायते म्रियते वा कदाचिन् नायं भूत्वा भविता वा न भूयः | अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||२-२०||",
+      "transliteration": "na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ . ajo nityaḥ śāśvato.ayaṃ purāṇo na hanyate hanyamāne śarīre ||2-20||",
+      "translations": {
+        "en": "The soul is never born, nor does it ever die; nor, having once existed, does it ever cease to be. It is unborn, eternal, everlasting and primeval; it is not slain when the body is slain.",
+        "hi": "यह आत्मा न कभी जन्म लेता है, न मरता है; न यह होकर फिर अभाव को प्राप्त होता है। यह अजन्मा, नित्य, सनातन और पुरातन है; शरीर के मारे जाने पर भी यह नहीं मरता।"
+      }
+    },
+    {
+      "id": "2_23",
+      "chapter": 2,
+      "verseNumber": 23,
+      "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः | न चैनं क्लेदयन्त्यापो न शोषयति मारुतः ||२-२३||",
+      "transliteration": "nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ . na cainaṃ kledayantyāpo na śoṣayati mārutaḥ ||2-23||",
+      "translations": {
+        "en": "Weapons cannot cut this soul, fire cannot burn it, water cannot wet it, and wind cannot dry it.",
+        "hi": "इस आत्मा को शस्त्र काट नहीं सकते, अग्नि जला नहीं सकती, जल भिगो नहीं सकता और वायु सुखा नहीं सकती।"
+      }
+    },
+    {
+      "id": "2_27",
+      "chapter": 2,
+      "verseNumber": 27,
+      "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च | तस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ||२-२७||",
+      "transliteration": "jātasya hi dhruvo mṛtyurdhruvaṃ janma mṛtasya ca . tasmādaparihārye.arthe na tvaṃ śocitumarhasi ||2-27||",
+      "translations": {
+        "en": "Death is certain for the one who is born, and birth is certain for the one who dies; therefore you should not grieve over what is unavoidable.",
+        "hi": "जन्मे हुए की मृत्यु अवश्य है और मरे हुए का जन्म अवश्य है; इस अनिवार्य विषय में तुम्हें शोक नहीं करना चाहिए।"
+      }
+    },
+    {
+      "id": "2_38",
+      "chapter": 2,
+      "verseNumber": 38,
+      "sanskrit": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ | ततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ||२-३८||",
+      "transliteration": "sukhaduḥkhe same kṛtvā lābhālābhau jayājayau . tato yuddhāya yujyasva naivaṃ pāpamavāpsyasi ||2-38||",
+      "translations": {
+        "en": "Treating alike pleasure and pain, gain and loss, victory and defeat, engage yourself in this duty; thus you shall not incur sin.",
+        "hi": "सुख-दुख, लाभ-हानि और जय-पराजय को समान समझकर कर्म के लिए तैयार हो जाओ; इस प्रकार तुम्हें पाप नहीं लगेगा।"
+      }
+    },
+    {
+      "id": "2_47",
+      "chapter": 2,
+      "verseNumber": 47,
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन | मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ||२-४७||",
+      "transliteration": "karmaṇyevādhikāraste mā phaleṣu kadācana . mā karmaphalaheturbhūrmā te saṅgo.astvakarmaṇi ||2-47||",
+      "translations": {
+        "en": "Your right is to perform your prescribed duty, never to its fruits. Let not the fruit of action be your motive, nor let yourself be attached to inaction.",
+        "hi": "कर्म करने में ही तुम्हारा अधिकार है, उसके फल में कभी नहीं। कर्मफल को अपना उद्देश्य मत बनाओ, और कर्म न करने में भी आसक्त मत हो।"
+      }
+    },
+    {
+      "id": "2_48",
+      "chapter": 2,
+      "verseNumber": 48,
+      "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय | सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ||२-४८||",
+      "transliteration": "yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya . siddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||2-48||",
+      "translations": {
+        "en": "Perform your duty steadfastly, O Arjuna, abandoning attachment to its outcome, remaining equipoised in success and failure; such equanimity is called yoga.",
+        "hi": "हे धनंजय, आसक्ति त्यागकर योग में स्थित होकर तथा सिद्धि और असिद्धि में समान भाव रखकर कर्म करो; यह समत्व ही योग कहलाता है।"
+      }
+    },
+    {
+      "id": "2_50",
+      "chapter": 2,
+      "verseNumber": 50,
+      "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते | तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ||२-५०||",
+      "transliteration": "buddhiyukto jahātīha ubhe sukṛtaduṣkṛte . tasmādyogāya yujyasva yogaḥ karmasu kauśalam ||2-50||",
+      "translations": {
+        "en": "A person of steady wisdom casts off, even in this life, both good and evil deeds; therefore strive for yoga - yoga is skill in action.",
+        "hi": "समबुद्धि वाला व्यक्ति इस जीवन में ही पुण्य और पाप दोनों का त्याग कर देता है; इसलिए योग के लिए प्रयत्न करो, कर्मों में कुशलता ही योग है।"
+      }
+    },
+    {
+      "id": "2_56",
+      "chapter": 2,
+      "verseNumber": 56,
+      "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः | वीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ||२-५६||",
+      "transliteration": "duḥkheṣvanudvignamanāḥ sukheṣu vigataspṛhaḥ . vītarāgabhayakrodhaḥ sthitadhīrmunirucyate ||2-56||",
+      "translations": {
+        "en": "One whose mind is undisturbed amid sorrow, who does not crave pleasure, and who is free from attachment, fear and anger - such a person is called a sage of steady wisdom.",
+        "hi": "जो दुखों में उद्विग्न नहीं होता, सुखों की इच्छा नहीं रखता, और जो राग, भय और क्रोध से मुक्त है, वह स्थितप्रज्ञ मुनि कहलाता है।"
+      }
+    },
+    {
+      "id": "2_62",
+      "chapter": 2,
+      "verseNumber": 62,
+      "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते | सङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ||२-६२||",
+      "transliteration": "dhyāyato viṣayānpuṃsaḥ saṅgasteṣūpajāyate . saṅgātsañjāyate kāmaḥ kāmātkrodho.abhijāyate ||2-62||",
+      "translations": {
+        "en": "When a person dwells on sense objects, attachment to them is born; from attachment arises desire, and from desire arises anger.",
+        "hi": "विषयों का चिंतन करने वाले मनुष्य की उनमें आसक्ति उत्पन्न होती है, आसक्ति से कामना और कामना से क्रोध उत्पन्न होता है।"
+      }
+    },
+    {
+      "id": "2_63",
+      "chapter": 2,
+      "verseNumber": 63,
+      "sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः | स्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ||२-६३||",
+      "transliteration": "krodhādbhavati sammohaḥ sammohātsmṛtivibhramaḥ . smṛtibhraṃśād buddhināśo buddhināśātpraṇaśyati ||2-63||",
+      "translations": {
+        "en": "From anger comes delusion, from delusion comes loss of memory, from loss of memory comes the destruction of discernment, and when discernment is destroyed, one falls.",
+        "hi": "क्रोध से मोह उत्पन्न होता है, मोह से स्मृति-भ्रम होता है, स्मृति-भ्रम से बुद्धि का नाश होता है और बुद्धि नष्ट होने पर मनुष्य का पतन हो जाता है।"
+      }
+    },
+    {
+      "id": "2_70",
+      "chapter": 2,
+      "verseNumber": 70,
+      "sanskrit": "आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् | तद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ||२-७०||",
+      "transliteration": "āpūryamāṇamacalapratiṣṭhaṃ samudramāpaḥ praviśanti yadvat . tadvatkāmā yaṃ praviśanti sarve sa śāntimāpnoti na kāmakāmī ||2-70||",
+      "translations": {
+        "en": "As the ocean remains undisturbed though waters constantly enter it, so the one whom desires enter without disturbing remains at peace - not the one who chases after desires.",
+        "hi": "जैसे सब ओर से जल से भरे हुए, अचल स्थिति वाले समुद्र में जल प्रवेश करता है, वैसे ही जिसमें सभी कामनाएं प्रवेश करती हैं वही शांति प्राप्त करता है, कामनाओं का इच्छुक व्यक्ति नहीं।"
+      }
+    },
+    {
+      "id": "3_7",
+      "chapter": 3,
+      "verseNumber": 7,
+      "sanskrit": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन | कर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||३-७||",
+      "transliteration": "yastvindriyāṇi manasā niyamyārabhate.arjuna . karmendriyaiḥ karmayogamasaktaḥ sa viśiṣyate ||3-7||",
+      "translations": {
+        "en": "But the one who, having controlled the senses with the mind, engages in selfless action without attachment, O Arjuna - that person excels.",
+        "hi": "परंतु हे अर्जुन, जो मन से इंद्रियों को नियंत्रित करके आसक्ति रहित होकर कर्मेंद्रियों से कर्मयोग करता है, वह श्रेष्ठ है।"
+      }
+    },
+    {
+      "id": "3_19",
+      "chapter": 3,
+      "verseNumber": 19,
+      "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर | असक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ||३-१९||",
+      "transliteration": "tasmādasaktaḥ satataṃ kāryaṃ karma samācara . asakto hyācarankarma paramāpnoti pūruṣaḥ ||3-19||",
+      "translations": {
+        "en": "Therefore, always perform your prescribed duty without attachment; for by performing action without attachment, a person attains the Supreme.",
+        "hi": "इसलिए निरंतर आसक्ति रहित होकर कर्तव्य कर्म करो; क्योंकि आसक्ति रहित होकर कर्म करने वाला मनुष्य परम तत्व को प्राप्त होता है।"
+      }
+    },
+    {
+      "id": "3_27",
+      "chapter": 3,
+      "verseNumber": 27,
+      "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः | अहङ्कारविमूढात्मा कर्ताहमिति मन्यते ||३-२७||",
+      "transliteration": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ . ahaṅkāravimūḍhātmā kartāhamiti manyate ||3-27||",
+      "translations": {
+        "en": "All actions are performed by the qualities (gunas) of nature; the one whose mind is deluded by ego thinks, 'I am the doer.'",
+        "hi": "सभी कर्म प्रकृति के गुणों द्वारा किए जाते हैं; अहंकार से मोहित आत्मा वाला व्यक्ति 'मैं कर्ता हूं' ऐसा मानता है।"
+      }
+    },
+    {
+      "id": "3_35",
+      "chapter": 3,
+      "verseNumber": 35,
+      "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||३-३५||",
+      "transliteration": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt . svadharme nidhanaṃ śreyaḥ paradharmo bhayāvahaḥ ||3-35||",
+      "translations": {
+        "en": "Better is one's own duty, though imperfectly performed, than another's duty well performed; death while engaged in one's own duty is better, for following another's duty is fraught with fear.",
+        "hi": "अपना धर्म दोषयुक्त होने पर भी, अच्छी प्रकार पालन किए गए दूसरे के धर्म से श्रेष्ठ है; अपने धर्म में मृत्यु भी कल्याणकारी है, दूसरे का धर्म भय उत्पन्न करने वाला है।"
+      }
+    },
+    {
+      "id": "3_37",
+      "chapter": 3,
+      "verseNumber": 37,
+      "sanskrit": "श्रीभगवानुवाच | काम एष क्रोध एष रजोगुणसमुद्भवः | महाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||३-३७||",
+      "transliteration": "śrībhagavānuvāca . kāma eṣa krodha eṣa rajoguṇasamudbhavaḥ . mahāśano mahāpāpmā viddhyenamiha vairiṇam ||3-37||",
+      "translations": {
+        "en": "The Blessed Lord said: It is desire, it is anger, born of passion - know this to be the all-devouring, deeply harmful enemy here.",
+        "hi": "श्री भगवान बोले: यह कामना है, यह क्रोध है, जो रजोगुण से उत्पन्न होता है; इसे ही महान भक्षक और महापापी शत्रु जानो।"
+      }
+    },
+    {
+      "id": "4_10",
+      "chapter": 4,
+      "verseNumber": 10,
+      "sanskrit": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः | बहवो ज्ञानतपसा पूता मद्भावमागताः ||४-१०||",
+      "transliteration": "vītarāgabhayakrodhā manmayā māmupāśritāḥ . bahavo jñānatapasā pūtā madbhāvamāgatāḥ ||4-10||",
+      "translations": {
+        "en": "Freed from attachment, fear and anger, absorbed in me, taking refuge in me, purified by the fire of knowledge, many have attained my being.",
+        "hi": "राग, भय और क्रोध से मुक्त, मुझमें तन्मय, मेरी शरण में आए हुए, ज्ञान रूपी तप से पवित्र हुए अनेक लोग मेरे भाव को प्राप्त हुए हैं।"
+      }
+    },
+    {
+      "id": "4_38",
+      "chapter": 4,
+      "verseNumber": 38,
+      "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते | तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ||४-३८||",
+      "transliteration": "na hi jñānena sadṛśaṃ pavitramiha vidyate . tatsvayaṃ yogasaṃsiddhaḥ kālenātmani vindati ||4-38||",
+      "translations": {
+        "en": "In this world, there is nothing as purifying as knowledge; one who is perfected in yoga finds it within themselves in due time.",
+        "hi": "इस संसार में ज्ञान के समान पवित्र करने वाला कुछ भी नहीं है; योग में सिद्ध हुआ व्यक्ति इसे समय आने पर अपने आप में पा लेता है।"
+      }
+    },
+    {
+      "id": "5_10",
+      "chapter": 5,
+      "verseNumber": 10,
+      "sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः | लिप्यते न स पापेन पद्मपत्रमिवाम्भसा ||५-१०||",
+      "transliteration": "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ . lipyate na sa pāpena padmapatramivāmbhasā ||5-10||",
+      "translations": {
+        "en": "One who performs action, offering it to the divine, abandoning attachment, is untouched by sin, just as a lotus leaf is untouched by water.",
+        "hi": "जो ब्रह्म में कर्मों को समर्पित करके, आसक्ति त्यागकर कर्म करता है, वह पाप से वैसे ही अलिप्त रहता है जैसे जलकमल का पत्ता जल से।"
+      }
+    },
+    {
+      "id": "5_18",
+      "chapter": 5,
+      "verseNumber": 18,
+      "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि | शुनि चैव श्वपाके च पण्डिताः समदर्शिनः ||५-१८||",
+      "transliteration": "vidyāvinayasampanne brāhmaṇe gavi hastini . śuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||5-18||",
+      "translations": {
+        "en": "The truly wise look with equal regard upon a learned and humble sage, a cow, an elephant, a dog, and even an outcaste.",
+        "hi": "विद्या और विनय से युक्त ब्राह्मण में, गाय में, हाथी में, कुत्ते में और चांडाल में भी ज्ञानी समान दृष्टि रखते हैं।"
+      }
+    },
+    {
+      "id": "6_5",
+      "chapter": 6,
+      "verseNumber": 5,
+      "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् | आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ||६-५||",
+      "transliteration": "uddharedātmanātmānaṃ nātmānamavasādayet . ātmaiva hyātmano bandhurātmaiva ripurātmanaḥ ||6-5||",
+      "translations": {
+        "en": "Let a person lift themselves up by their own self; let them not degrade themselves. For the self alone is one's friend, and the self alone is one's enemy.",
+        "hi": "मनुष्य को स्वयं अपने द्वारा अपना उद्धार करना चाहिए, अपने आप को गिराना नहीं चाहिए; क्योंकि आत्मा ही आत्मा का मित्र है और आत्मा ही आत्मा का शत्रु है।"
+      }
+    },
+    {
+      "id": "6_6",
+      "chapter": 6,
+      "verseNumber": 6,
+      "sanskrit": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः | अनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ||६-६||",
+      "transliteration": "bandhurātmātmanastasya yenātmaivātmanā jitaḥ . anātmanastu śatrutve vartetātmaiva śatruvat ||6-6||",
+      "translations": {
+        "en": "For one who has conquered their own self by the self, the self is a friend; but for one who has not conquered the self, the self acts like an enemy.",
+        "hi": "जिसने अपनी आत्मा को आत्मा से जीत लिया है, उसके लिए आत्मा मित्र है; परंतु जिसने आत्मा को नहीं जीता, उसके लिए आत्मा शत्रु के समान व्यवहार करती है।"
+      }
+    },
+    {
+      "id": "6_16",
+      "chapter": 6,
+      "verseNumber": 16,
+      "sanskrit": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः | न चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन ||६-१६||",
+      "transliteration": "nātyaśnatastu yogo.asti na caikāntamanaśnataḥ . na cātisvapnaśīlasya jāgrato naiva cārjuna ||6-16||",
+      "translations": {
+        "en": "Yoga is not for one who eats too much or too little, nor for one who sleeps too much or stays awake too much, O Arjuna.",
+        "hi": "न अधिक खाने वाले का और न बिल्कुल न खाने वाले का योग सिद्ध होता है, न अधिक सोने वाले का और न सदा जागते रहने वाले का, हे अर्जुन।"
+      }
+    },
+    {
+      "id": "6_17",
+      "chapter": 6,
+      "verseNumber": 17,
+      "sanskrit": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु | युक्तस्वप्नावबोधस्य योगो भवति दुःखहा ||६-१७||",
+      "transliteration": "yuktāhāravihārasya yuktaceṣṭasya karmasu . yuktasvapnāvabodhasya yogo bhavati duḥkhahā ||6-17||",
+      "translations": {
+        "en": "For one who is moderate in food and recreation, balanced in action, and regulated in sleep and waking, yoga becomes the destroyer of sorrow.",
+        "hi": "जो आहार और विहार में नियमित है, कर्मों में संयमित चेष्टा रखता है, और सोने-जागने में नियमित है, उसका योग दुखों का नाशक होता है।"
+      }
+    },
+    {
+      "id": "6_26",
+      "chapter": 6,
+      "verseNumber": 26,
+      "sanskrit": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम् | ततस्ततो नियम्यैतदात्मन्येव वशं नयेत् ||६-२६||",
+      "transliteration": "yato yato niścarati manaścañcalamasthiram . tatastato niyamyaitadātmanyeva vaśaṃ nayet ||6-26||",
+      "translations": {
+        "en": "Wherever the restless and unsteady mind wanders, one should withdraw it from there and bring it back under the control of the self.",
+        "hi": "यह चंचल और अस्थिर मन जहां-जहां भी भटकता है, वहां-वहां से इसे रोककर आत्मा के वश में लाना चाहिए।"
+      }
+    },
+    {
+      "id": "6_35",
+      "chapter": 6,
+      "verseNumber": 35,
+      "sanskrit": "श्रीभगवानुवाच | असंशयं महाबाहो मनो दुर्निग्रहं चलम् | अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ||६-३५||",
+      "transliteration": "śrībhagavānuvāca . asaṃśayaṃ mahābāho mano durnigrahaṃ calam . abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate ||6-35||",
+      "translations": {
+        "en": "The Blessed Lord said: Undoubtedly, O mighty-armed Arjuna, the mind is restless and hard to control; but it is mastered through practice and dispassion.",
+        "hi": "श्री भगवान बोले: हे महाबाहो, निःसंदेह मन चंचल और कठिनता से वश में आने वाला है; परंतु अभ्यास और वैराग्य से इसे वश में किया जा सकता है।"
+      }
+    },
+    {
+      "id": "7_3",
+      "chapter": 7,
+      "verseNumber": 3,
+      "sanskrit": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये | यततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ||७-३||",
+      "transliteration": "manuṣyāṇāṃ sahasreṣu kaścidyatati siddhaye . yatatāmapi siddhānāṃ kaścinmāṃ vetti tattvataḥ ||7-3||",
+      "translations": {
+        "en": "Among thousands of people, scarcely one strives for perfection; and even among those who strive and succeed, scarcely one knows me in truth.",
+        "hi": "हजारों मनुष्यों में कोई एक ही सिद्धि के लिए प्रयत्न करता है; और प्रयत्न करने वाले सिद्ध पुरुषों में भी कोई एक ही मुझे तत्व से जानता है।"
+      }
+    },
+    {
+      "id": "7_14",
+      "chapter": 7,
+      "verseNumber": 14,
+      "sanskrit": "दैवी ह्येषा गुणमयी मम माया दुरत्यया | मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ||७-१४||",
+      "transliteration": "daivī hyeṣā guṇamayī mama māyā duratyayā . māmeva ye prapadyante māyāmetāṃ taranti te ||7-14||",
+      "translations": {
+        "en": "This divine illusion (maya) of mine, composed of the three qualities, is hard to overcome; but those who take refuge in me alone cross beyond this illusion.",
+        "hi": "मेरी यह त्रिगुणमयी दिव्य माया पार करना कठिन है; परंतु जो केवल मेरी शरण लेते हैं, वे इस माया को पार कर जाते हैं।"
+      }
+    },
+    {
+      "id": "8_7",
+      "chapter": 8,
+      "verseNumber": 7,
+      "sanskrit": "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च | मय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयः ||८-७||",
+      "transliteration": "tasmātsarveṣu kāleṣu māmanusmara yudhya ca . mayyarpitamanobuddhirmāmevaiṣyasyasaṃśayaḥ ||8-7||",
+      "translations": {
+        "en": "Therefore, at all times remember me and carry out your duty; with mind and intellect fixed on me, you shall surely attain me.",
+        "hi": "इसलिए सभी समयों में मेरा स्मरण करो और अपना कर्तव्य करो; मन और बुद्धि मुझमें अर्पित करके तुम निःसंदेह मुझे ही प्राप्त होगे।"
+      }
+    },
+    {
+      "id": "9_22",
+      "chapter": 9,
+      "verseNumber": 22,
+      "sanskrit": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते | तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ||९-२२||",
+      "transliteration": "ananyāścintayanto māṃ ye janāḥ paryupāsate . teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham ||9-22||",
+      "translations": {
+        "en": "To those who worship me with single-minded devotion, ever united in me, I provide what they lack and preserve what they have.",
+        "hi": "जो अनन्य भाव से मेरा चिंतन करते हुए मेरी उपासना करते हैं, उन नित्य मुझमें युक्त रहने वाले भक्तों के योग और क्षेम का भार मैं स्वयं उठाता हूं।"
+      }
+    },
+    {
+      "id": "9_27",
+      "chapter": 9,
+      "verseNumber": 27,
+      "sanskrit": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् | यत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ||९-२७||",
+      "transliteration": "yatkaroṣi yadaśnāsi yajjuhoṣi dadāsi yat . yattapasyasi kaunteya tatkuruṣva madarpaṇam ||9-27||",
+      "translations": {
+        "en": "Whatever you do, whatever you eat, whatever you offer in sacrifice, whatever you give away, whatever austerity you perform - O Arjuna, offer all of it to me.",
+        "hi": "हे कुन्तीपुत्र, जो भी तुम करते हो, जो भी खाते हो, जो भी हवन करते हो, जो भी दान देते हो, जो भी तप करते हो, वह सब मुझे अर्पण करो।"
+      }
+    },
+    {
+      "id": "11_32",
+      "chapter": 11,
+      "verseNumber": 32,
+      "sanskrit": "श्रीभगवानुवाच | कालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्तः | ऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः ||११-३२||",
+      "transliteration": "śrībhagavānuvāca . kālo.asmi lokakṣayakṛtpravṛddho lokānsamāhartumiha pravṛttaḥ . ṛte.api tvāṃ na bhaviṣyanti sarve ye.avasthitāḥ pratyanīkeṣu yodhāḥ ||11-32||",
+      "translations": {
+        "en": "The Blessed Lord said: I am time, the great destroyer of the worlds, here to annihilate all beings. Even without your action, all these warriors arrayed in the opposing armies shall cease to exist.",
+        "hi": "श्री भगवान बोले: मैं समस्त लोकों का नाश करने वाला महाकाल हूं, यहां सबका संहार करने के लिए प्रवृत्त हुआ हूं। तुम्हारे बिना भी, इन सेनाओं में खड़े ये सभी योद्धा नहीं रहेंगे।"
+      }
+    },
+    {
+      "id": "12_13",
+      "chapter": 12,
+      "verseNumber": 13,
+      "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च | निर्ममो निरहङ्कारः समदुःखसुखः क्षमी ||१२-१३||",
+      "transliteration": "adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca . nirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī ||12-13||",
+      "translations": {
+        "en": "One who hates no being, who is friendly and compassionate, free from possessiveness and ego, equal in pleasure and pain, and forgiving...",
+        "hi": "जो किसी से द्वेष नहीं करता, सब प्राणियों का मित्र और करुणामय है, ममता और अहंकार से रहित है, सुख-दुख में समान और क्षमाशील है..."
+      }
+    },
+    {
+      "id": "12_14",
+      "chapter": 12,
+      "verseNumber": 14,
+      "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः | मय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ||१२-१४||",
+      "transliteration": "santuṣṭaḥ satataṃ yogī yatātmā dṛḍhaniścayaḥ . mayyarpitamanobuddhiryo madbhaktaḥ sa me priyaḥ ||12-14||",
+      "translations": {
+        "en": "...who is ever content, steadfast in meditation, self-controlled, of firm resolve, with mind and intellect dedicated to me - such a devotee is dear to me.",
+        "hi": "...जो सदा संतुष्ट है, योगयुक्त है, मन को वश में रखने वाला है, दृढ़ निश्चय वाला है, और मन-बुद्धि मुझे अर्पित किए हुए है - ऐसा भक्त मुझे प्रिय है।"
+      }
+    },
+    {
+      "id": "12_15",
+      "chapter": 12,
+      "verseNumber": 15,
+      "sanskrit": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः | हर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ||१२-१५||",
+      "transliteration": "yasmānnodvijate loko lokānnodvijate ca yaḥ . harṣāmarṣabhayodvegairmukto yaḥ sa ca me priyaḥ ||12-15||",
+      "translations": {
+        "en": "One who is not disturbed by the world, and by whom the world is not disturbed, who is free from joy, anger, fear and anxiety - such a person is dear to me.",
+        "hi": "जिससे संसार उद्विग्न नहीं होता और जो संसार से उद्विग्न नहीं होता, जो हर्ष, क्रोध, भय और उद्वेग से मुक्त है, वह मुझे प्रिय है।"
+      }
+    },
+    {
+      "id": "14_22",
+      "chapter": 14,
+      "verseNumber": 22,
+      "sanskrit": "श्रीभगवानुवाच | प्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव | न द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति ||१४-२२||",
+      "transliteration": "śrībhagavānuvāca . prakāśaṃ ca pravṛttiṃ ca mohameva ca pāṇḍava . na dveṣṭi sampravṛttāni na nivṛttāni kāṅkṣati ||14-22||",
+      "translations": {
+        "en": "The Blessed Lord said: O son of Pandu, one who does not hate illumination, activity or delusion when they arise, nor longs for them when they cease...",
+        "hi": "श्री भगवान बोले: हे पाण्डव, जो प्रकाश, प्रवृत्ति और मोह के उत्पन्न होने पर उनसे द्वेष नहीं करता, और उनके निवृत्त होने पर उनकी कामना नहीं करता..."
+      }
+    },
+    {
+      "id": "16_21",
+      "chapter": 16,
+      "verseNumber": 21,
+      "sanskrit": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः | कामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ||१६-२१||",
+      "transliteration": "trividhaṃ narakasyedaṃ dvāraṃ nāśanamātmanaḥ . kāmaḥ krodhastathā lobhastasmādetattrayaṃ tyajet ||16-21||",
+      "translations": {
+        "en": "There are three gates to self-destruction: desire, anger and greed. Therefore, one should abandon these three.",
+        "hi": "काम, क्रोध और लोभ - ये आत्मा का नाश करने वाले नरक के तीन द्वार हैं; इसलिए इन तीनों का त्याग करना चाहिए।"
+      }
+    },
+    {
+      "id": "18_47",
+      "chapter": 18,
+      "verseNumber": 47,
+      "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम् ||१८-४७||",
+      "transliteration": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt . svabhāvaniyataṃ karma kurvannāpnoti kilbiṣam ||18-47||",
+      "translations": {
+        "en": "Better is one's own natural duty, even though imperfect, than another's duty well performed; one who performs the action prescribed by their own nature does not incur sin.",
+        "hi": "अपना स्वाभाविक धर्म, दोषयुक्त होने पर भी, भलीभांति किए गए दूसरे के धर्म से श्रेष्ठ है; अपने स्वभाव से नियत कर्म करने वाला व्यक्ति पाप को प्राप्त नहीं होता।"
+      }
+    },
+    {
+      "id": "18_66",
+      "chapter": 18,
+      "verseNumber": 66,
+      "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज | अहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||१८-६६||",
+      "transliteration": "sarvadharmānparityajya māmekaṃ śaraṇaṃ vraja . ahaṃ tvāṃ sarvapāpebhyo mokṣyayiṣyāmi mā śucaḥ ||18-66||",
+      "translations": {
+        "en": "Abandoning all sense of duty, take refuge in me alone; I shall free you from all sins - do not grieve.",
+        "hi": "सभी धर्मों को त्यागकर केवल मेरी शरण में आ जाओ; मैं तुम्हें सभी पापों से मुक्त कर दूंगा, शोक मत करो।"
+      }
+    },
+    {
+      "id": "18_78",
+      "chapter": 18,
+      "verseNumber": 78,
+      "sanskrit": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः | तत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ||१८-७८||",
+      "transliteration": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanurdharaḥ . tatra śrīrvijayo bhūtirdhruvā nītirmatirmama ||18-78||",
+      "translations": {
+        "en": "Wherever there is Krishna, the Lord of yoga, and wherever there is Arjuna, the wielder of the bow, there will surely be fortune, victory, prosperity and sound judgment - this is my conviction.",
+        "hi": "जहां योगेश्वर कृष्ण हैं और जहां धनुर्धर पार्थ हैं, वहां श्री, विजय, ऐश्वर्य और स्थिर नीति है - यह मेरा मत है।"
+      }
+    }
+  ]
+}

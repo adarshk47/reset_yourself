@@ -24,7 +24,13 @@
     },
     "plugins": [
       "expo-router",
-      "expo-speech-recognition"
+      "expo-speech-recognition",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-4083049312549641~1220961755"
+        }
+      ]
     ]
   }
 }

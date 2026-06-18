@@ -1,7 +1,13 @@
 import { Stack } from "expo-router";
+import { useEffect } from "react";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { initializeMobileAds } from "../src/ads/initializeMobileAds";
 
 export default function RootLayout() {
+  useEffect(() => {
+    initializeMobileAds();
+  }, []);
+
   return (
     <SafeAreaProvider>
       <Stack>

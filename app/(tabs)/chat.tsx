@@ -12,11 +12,12 @@ import {
 import { useFocusEffect, useLocalSearchParams } from "expo-router";
 
 import { ChatBubble } from "../../src/components/ChatBubble";
+import { useChatRewardedAd } from "../../src/ads/useChatRewardedAd";
 import themeConfigJson from "../../src/data/themeConfig.json";
 import versesData from "../../src/data/verses.json";
 import type { ChatMessage, GitaData, Language, ThemeConfig } from "../../src/data/types";
 import { scoreThemes } from "../../src/engine/matcher";
-import { selectVerse } from "../../src/engine/verseSelector";
+import { selectGoalSupportVerse, selectVerse } from "../../src/engine/verseSelector";
 import { useSpeechRecognition } from "../../src/hooks/useSpeechRecognition";
 import { appendChatMessage, getChatHistory } from "../../src/storage/chat";
 import { getRecentVerseIds, recordShownVerse } from "../../src/storage/history";
@@ -38,6 +39,8 @@ export default function ChatScreen() {
   const greetedGoalRef = useRef<string | null>(null);
   const listRef = useRef<FlatList<ChatMessage>>(null);
   const speech = useSpeechRecognition();
+  const rewardedAd = useChatRewardedAd();
+  const rewardGrantedRef = useRef(false);
 
   useFocusEffect(
     useCallback(() => {
@@ -101,6 +104,46 @@ export default function ChatScreen() {
     setMessages((prev) => [...prev, appMessage]);
   }, [input]);
 
+  const grantBonusVerse = useCallback(async () => {
+    const recent = await getRecentVerseIds();
+    const verse = selectGoalSupportVerse(config, verses, recent);
+    await recordShownVerse(verse.id);
+
+    const bonusMessage: ChatMessage = {
+      id: makeId("app"),
+      role: "app",
+      text: "🎁 Bonus wisdom for watching:",
+      verseId: verse.id,
+      createdAt: new Date().toISOString(),
+    };
+    await appendChatMessage(bonusMessage);
+    setMessages((prev) => [...prev, bonusMessage]);
+  }, []);
+
+  const loadRewardedAd = useCallback(() => {
+    rewardGrantedRef.current = false;
+    rewardedAd.load();
+  }, [rewardedAd.load]);
+
+  useEffect(() => {
+    loadRewardedAd();
+    // Load once on mount; reloaded again after each close via the effect below.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (rewardedAd.isEarnedReward && !rewardGrantedRef.current) {
+      rewardGrantedRef.current = true;
+      grantBonusVerse();
+    }
+  }, [rewardedAd.isEarnedReward, grantBonusVerse]);
+
+  useEffect(() => {
+    if (rewardedAd.isClosed) {
+      loadRewardedAd();
+    }
+  }, [rewardedAd.isClosed, loadRewardedAd]);
+
   return (
     <KeyboardAvoidingView
       style={styles.container}
@@ -127,6 +170,15 @@ export default function ChatScreen() {
         )}
       />
       {speech.error ? <Text style={styles.speechError}>{speech.error}</Text> : null}
+      <Pressable
+        style={[styles.rewardButton, !rewardedAd.isLoaded && styles.rewardButtonDisabled]}
+        disabled={!rewardedAd.isLoaded}
+        onPress={() => rewardedAd.show()}
+      >
+        <Text style={styles.rewardButtonText}>
+          {rewardedAd.isLoaded ? "🎁 Watch an ad for bonus wisdom" : "Loading bonus ad…"}
+        </Text>
+      </Pressable>
       <View style={styles.inputRow}>
         <Pressable
           style={[styles.micButton, !speech.isAvailable && styles.micButtonDisabled]}
@@ -171,6 +223,24 @@ const styles = StyleSheet.create({
     color: "#B23A48",
     fontSize: 12,
     paddingHorizontal: 16,
+  },
+  rewardButton: {
+    backgroundColor: "#FFF8E7",
+    borderWidth: 1,
+    borderColor: "#E8D9B0",
+    borderRadius: 10,
+    marginHorizontal: 12,
+    marginTop: 8,
+    paddingVertical: 10,
+    alignItems: "center",
+  },
+  rewardButtonDisabled: {
+    opacity: 0.5,
+  },
+  rewardButtonText: {
+    color: "#8A6D1D",
+    fontWeight: "600",
+    fontSize: 13,
   },
   inputRow: {
     flexDirection: "row",
